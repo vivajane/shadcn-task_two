@@ -29,8 +29,8 @@ const CreateInterview = () => {
   };
 
   const removeQuestion = (index) => {
-    const updatedQuestions = questions.filter((_, i) => i !== index);
-    setQuestions(updatedQuestions);
+    const removedQuestions = questions.filter((question)=> question !== questions[index]);
+    setQuestions(removedQuestions);
   };
 
   const handleSubmit = async (e) => {
