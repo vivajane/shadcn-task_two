@@ -39,7 +39,6 @@ const CreateInterview = () => {
 
     try {
       await axios.post("http://localhost:5000/interviews", interviewData);
-      setSuccessMessage("Interview created successfully!");
       setTitle("");
       setDescription("");
       setQuestions([""]);

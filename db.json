@@ -1,61 +1,19 @@
 {
   "interviews": [
     {
-      "id": "449b",
+      "id": "e20f",
       "title": "a",
-      "description": "b",
-      "questions": [
-        "c"
-      ]
-    },
-    {
-      "id": "9436",
-      "title": "a",
-      "description": "b",
-      "questions": [
-        "c"
-      ]
-    },
-    {
-      "id": "fde3",
-      "title": "q",
-      "description": "a",
-      "questions": [
-        "t"
-      ]
-    },
-    {
-      "id": "c817",
-      "title": "a",
-      "description": "v",
+      "description": "c",
       "questions": [
         "d"
       ]
     },
     {
-      "id": "61ef",
+      "id": "f221",
       "title": "a",
       "description": "c",
       "questions": [
-        "s"
-      ]
-    },
-    {
-      "id": "9b65",
-      "title": "a",
-      "description": "c",
-      "questions": [
-        "w",
-        "e",
-        "q"
-      ]
-    },
-    {
-      "id": "92fc",
-      "title": "a",
-      "description": "b",
-      "questions": [
-        "q"
+        "d"
       ]
     }
   ]
