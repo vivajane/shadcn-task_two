@@ -1,5 +1,6 @@
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const InterviewList = () => {
   const mockInterviews = [
@@ -12,7 +13,8 @@ const InterviewList = () => {
     <div className="bg-white p-6 rounded-lg shadow-md">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold">Interview List</h2>
-        <Button>Create Interview</Button>
+        <Link href="/createInterview"><Button>Create Interview</Button></Link>
+        
       </div>
 
       <Table>

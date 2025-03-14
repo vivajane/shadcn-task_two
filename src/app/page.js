@@ -4,9 +4,9 @@ import InterviewList from "../components/ui/InterviewList";
 
 const InterviewsPage = () => {
   return (
-    <AdminLayout>
+    
       <InterviewList />
-    </AdminLayout>
+  
   );
 };
 

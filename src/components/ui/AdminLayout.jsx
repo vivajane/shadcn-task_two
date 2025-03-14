@@ -4,9 +4,9 @@ import { MdOutlineDashboard } from "react-icons/md";
 
 const AdminLayout = ({ children }) => {
   return (
-    <div className="flex h-screen">
+    <div className="flex  h-screen">
       {/* Sidebar */}
-      <aside className="w-64 bg-gray-900 text-white p-4">
+      <aside className="w-64 md:text-base text-xs bg-gray-900 text-white p-4">
         <div className="flex py-5 gap-3 items-center"><MdOutlineDashboard/>
         <h2 className="text-xl font-bold">Admin Dashboard</h2></div>
         <nav>
@@ -24,9 +24,9 @@ const AdminLayout = ({ children }) => {
               <div className="flex gap-2 items-center">
                 <Avatar className="w-4 text-xs text-black h-4">
                   <AvatarImage src="" />
-                  <AvatarFallback >pr</AvatarFallback>
+                  <AvatarFallback >in</AvatarFallback>
                 </Avatar>
-                <Link href="/overview">Projects</Link>
+                <Link href="/overview">Interviews</Link>
               </div>
             </li>
             <li>
